@@ -1,0 +1,11 @@
+80mm max phone width
+phone held in with elastic bands
+phone angle adjustable - ideally to be totally horiz to totally vertical
+stepper motors
+custom driver board
+
+
+Motors at front
+Castor at back
+Phone at back (ish)
+
