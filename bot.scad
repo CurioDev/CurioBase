@@ -13,13 +13,18 @@
  }
  
  module phone() { 
- color("#F80") linear_extrude(height=3,center=true) translate([-43,-4.5]) import_dxf("bot_phoneholder.dxf");
- color("#8FF") translate([0,81,6+1.5]) roundedrect(80,162,10,12);
+     offset = -25;
+ color("#F80") linear_extrude(height=3,center=true) translate([-43,offset]) import_dxf("bot_phoneholder.dxf");
+ color("#8FF") translate([0,85.5+offset,6+1.5]) roundedrect(80,162,10,12);
  }
  
- module side() { 
- linear_extrude(height=3,center=true) translate([0,0]) import_dxf("bot_side.dxf");
+ module castorholder() { 
+ color("#F80") linear_extrude(height=3,center=true) translate([-43,-15]) import_dxf("bot_castorholder.dxf");
  }
+ 
+module side() { 
+ linear_extrude(height=3,center=true) translate([0,0]) import_dxf("bot_side.dxf");
+}
  
 module wheel() { 
  color("#FF0") linear_extrude(height=3,center=true) translate([-30,-30]) import_dxf("bot_wheel.dxf");
@@ -32,20 +37,45 @@ module castor() { // descends 14mm
     translate([0,0,5-14]) sphere(r=5);
        translate([0,0,-4]) cylinder(r=19.6/2,h=5,center=true);
    }; union() {
-    translate([34/2,0,0]) cylinder(r=3.8/2,h=5, center=true);
+    translate([34/2,0,0]) cylinder(r=3.8/2,h=5, center=true); // 3.8mm holes
     translate([-34/2,0,0]) cylinder(r=3.8/2, h=5, center=true);
    }
   }
 }
  
-translate([0,10.5,7]) rotate([83,0,0]) phone();
+module stepper() {
+  color("#F00") translate([0,-8.5,-19]) difference() { union() {
+    cylinder(r=28/2, h=19);
+    translate([0,8.5,19]) cylinder(r=9/2, h=1.5);
+    translate([0,8.5,19]) cylinder(r=5/2, h=8);   // shaft
+    translate([35/2,0,18]) cylinder(r=7/2, h=1);
+    translate([-35/2,0,18]) cylinder(r=7/2, h=1);
+    translate([0,0,18.5]) cube([35,7,1],center=true);
+    translate([0,-14,19/2]) cube([15,6,19],center=true);
+  }; union() {
+    translate([35/2,0,17]) cylinder(r=4/2, h=3);
+    translate([-35/2,0,17]) cylinder(r=4/2, h=3);
+  }
+  }
+}
+
+translate([0,10,30]) rotate([30,0,0]) phone();
+translate([0,10,30]) cube([100,2,2],center=true);
  
-translate([42,0,0]) rotate([90,0,90]) side();
+
+//translate([42,0,0]) rotate([90,0,90]) side();
 translate([-42,0,0])  rotate([90,0,90]) side();
  
-translate([45,50,25])  rotate([90,0,90]) wheel();
-translate([-45,50,25])  rotate([90,0,90]) wheel();
 
-translate([0,0,14])  castor();
+translate([0,-30,14])  castor();
+translate([0,-30,14+1.5]) castorholder();
+
+WHEELX=60;
+WHEELY=30;
+translate([-42+1.5,WHEELX,WHEELY]) rotate([90,0,-90])  stepper();
+translate([42-1.5,WHEELX,WHEELY]) rotate([90,0,90])  stepper();
+translate([45,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
+translate([-45,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
+
 
 //roundedrect(80,162,10,12);

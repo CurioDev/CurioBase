@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="bot_phoneholder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4032564"
+     inkscape:cx="1.4252563"
+     inkscape:cy="278.63761"
+     inkscape:window-width="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="90.128263,224"
+       orientation="0,1"
+       id="guide2610"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.2"
+       id="rect846"
+       width="80"
+       height="100"
+       x="0"
+       y="0"
+       rx="2.0000012"
+       ry="2.0000012" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.2"
+       id="rect1143"
+       width="86"
+       height="5"
+       x="-3"
+       y="73" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.200001"
+       id="rect1305"
+       width="4.5"
+       height="10"
+       x="-1.5"
+       y="20" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.200001"
+       id="rect1489"
+       width="0.5"
+       height="30"
+       x="3"
+       y="20" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.200001"
+       id="rect1591"
+       width="3.5"
+       height="0.50000012"
+       x="0"
+       y="19.5" />
+  </g>
+</svg>

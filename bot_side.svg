@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="bot.svg"
+   sodipodi:docname="bot_side.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.1727211"
-     inkscape:cx="377.40692"
-     inkscape:cy="205.96293"
+     inkscape:zoom="0.66486872"
+     inkscape:cx="-111.30017"
+     inkscape:cy="341.42078"
      inkscape:window-width="2560"
-     inkscape:window-height="1409"
-     inkscape:window-x="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
@@ -51,43 +51,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect846"
-       width="80"
-       height="100"
-       x="0"
-       y="0"
-       rx="2.0000012"
-       ry="2.0000012" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect1143"
-       width="86"
-       height="5"
-       x="-3"
-       y="93" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.200001"
-       id="rect1305"
-       width="4.5"
-       height="10"
-       x="-1.5"
-       y="20" />
-    <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.200001"
-       id="rect1489"
-       width="0.5"
-       height="30"
-       x="3"
-       y="20" />
-    <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.200001"
-       id="rect1591"
-       width="3.5"
-       height="0.50000012"
-       x="0"
-       y="19.5" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect1800"
