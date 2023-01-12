@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="86.199997mm"
+   height="110.2mm"
+   viewBox="0 0 86.199997 110.2"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -22,10 +22,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="1.4032564"
-     inkscape:cx="1.4252563"
-     inkscape:cy="278.63761"
+     showgrid="true"
+     inkscape:zoom="1.5924602"
+     inkscape:cx="-118.05632"
+     inkscape:cy="138.77897"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
@@ -36,28 +36,33 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-bbox-midpoints="true"
      showguides="true"
-     inkscape:guide-bbox="true">
-    <sodipodi:guide
-       position="90.128263,224"
-       orientation="0,1"
-       id="guide2610"
-       inkscape:label=""
-       inkscape:locked="false"
-       inkscape:color="rgb(0,0,255)" />
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid882"
+       units="mm"
+       spacingx="1"
+       spacingy="1" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(3.1,10.100001)">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
+       style="fill:none;stroke:#000000;stroke-width:0.200001"
        id="rect846"
        width="80"
-       height="100"
+       height="111"
        x="0"
-       y="0"
+       y="-11.100001"
        rx="2.0000012"
        ry="2.0000012" />
     <rect
@@ -73,20 +78,82 @@
        width="4.5"
        height="10"
        x="-1.5"
-       y="20" />
+       y="-3.5527137e-15" />
     <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.200001"
+       style="fill:none;stroke:#ff0000;stroke-width:0.200002"
        id="rect1489"
-       width="0.5"
+       width="1.5"
        height="30"
        x="3"
-       y="20" />
+       y="-3.5527137e-15" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.200001"
        id="rect1591"
-       width="3.5"
+       width="4.5"
        height="0.50000012"
        x="0"
-       y="19.5" />
+       y="-0.5" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="rect849"
+       width="12"
+       height="3"
+       x="8"
+       y="94" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="rect953"
+       width="12"
+       height="3"
+       x="60"
+       y="94" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.200001"
+       id="rect955"
+       width="4.5"
+       height="10"
+       x="-81.5"
+       y="-2.5539756e-15"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.200002"
+       id="rect957"
+       width="1.5"
+       height="30"
+       x="-77"
+       y="-2.5539756e-15"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.200001"
+       id="rect959"
+       width="4.5"
+       height="0.50000012"
+       x="-80"
+       y="-0.5"
+       transform="scale(-1,1)" />
+    <g
+       id="g1005"
+       transform="translate(0,-1.980744)">
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 0.01523879,46.880743 1.9,48.899998 h 5 1.9999999 l 0.9999999,1 V 51.9 L 8.8999999,52.899998 H 4.8999998 L 3.8999999,51.9 H 2.8999998 L 1.9,52.899998 v 6.000001 l 0.9999998,1 h 1.0000001 l 0.9999999,-1 h 4.0000001 l 0.9999999,1 v 1.999999 L 8.8999999,62.899999 H 1.9 l -1.99999995,1.999998 H -1.1 V 46.899999 Z"
+         id="path884" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 79.784761,46.880743 77.9,48.899998 h -5 -2 l -1,1 V 51.9 l 1,0.999998 h 4 L 75.9,51.9 h 1 l 1,0.999998 v 6.000001 l -1,1 h -1 l -1,-1 h -4 l -1,1 v 1.999999 l 1,1.000001 h 7 l 2,1.999998 h 1 V 46.899999 Z"
+         id="path984" />
+    </g>
+    <g
+       id="g1011"
+       transform="translate(0,-62.980744)">
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 0.01523879,46.880743 1.9,48.899998 h 5 1.9999999 l 0.9999999,1 V 51.9 L 8.8999999,52.899998 H 4.8999998 L 3.8999999,51.9 H 2.8999998 L 1.9,52.899998 v 6.000001 l 0.9999998,1 h 1.0000001 l 0.9999999,-1 h 4.0000001 l 0.9999999,1 v 1.999999 L 8.8999999,62.899999 H 1.9 l -1.99999995,1.999998 H -1.1 V 46.899999 Z"
+         id="path1007" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 79.784761,46.880743 77.9,48.899998 h -5 -2 l -1,1 V 51.9 l 1,0.999998 h 4 L 75.9,51.9 h 1 l 1,0.999998 v 6.000001 l -1,1 h -1 l -1,-1 h -4 l -1,1 v 1.999999 l 1,1.000001 h 7 l 2,1.999998 h 1 V 46.899999 Z"
+         id="path1009" />
+    </g>
   </g>
 </svg>

@@ -15,7 +15,8 @@
  module phone() { 
      offset = -25;
  color("#F80") linear_extrude(height=3,center=true) translate([-43,offset]) import_dxf("bot_phoneholder.dxf");
- color("#8FF") translate([0,85.5+offset,6+1.5]) roundedrect(80,162,10,12);
+     color("#8FF") translate([0,87+offset,6+1.5]) roundedrect(70,162,10,12); // 80,162
+     color("#F80") translate([-40,offset+4.5,11.5]) rotate([-90,0,0]) linear_extrude(height=3,center=true) import_dxf("bot_phonebase.dxf");
  }
  
  module castorholder() { 
@@ -44,10 +45,10 @@ module castor() { // descends 14mm
 }
  
 module stepper() {
-  color("#F00") translate([0,-8.5,-19]) difference() { union() {
+  color("#F00") translate([0,-8,-19]) difference() { union() {
     cylinder(r=28/2, h=19);
-    translate([0,8.5,19]) cylinder(r=9/2, h=1.5);
-    translate([0,8.5,19]) cylinder(r=5/2, h=8);   // shaft
+    translate([0,8,19]) cylinder(r=9/2, h=1.5);
+    translate([0,8,19]) cylinder(r=5/2, h=8);   // shaft
     translate([35/2,0,18]) cylinder(r=7/2, h=1);
     translate([-35/2,0,18]) cylinder(r=7/2, h=1);
     translate([0,0,18.5]) cube([35,7,1],center=true);
@@ -59,8 +60,8 @@ module stepper() {
   }
 }
 
-translate([0,10,30]) rotate([30,0,0]) phone();
-translate([0,10,30]) cube([100,2,2],center=true);
+translate([0,10,30]) rotate([10,0,0]) phone();
+//translate([0,10,30]) cube([120,2,2],center=true); // pivot
  
 
 //translate([42,0,0]) rotate([90,0,90]) side();
@@ -74,7 +75,7 @@ WHEELX=60;
 WHEELY=30;
 translate([-42+1.5,WHEELX,WHEELY]) rotate([90,0,-90])  stepper();
 translate([42-1.5,WHEELX,WHEELY]) rotate([90,0,90])  stepper();
-translate([45,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
+//translate([45,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 translate([-45,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 
 
