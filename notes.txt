@@ -17,3 +17,13 @@ Controller
 power in
 Extra IO on sparkfun/seeed/etc compatible connector?
 Extra IO on Servo output?
+
+
+Mk.1 notes
+-----------
+
+FIXED - Wheel cutout needs to be ~4.8 x 2.7mm 
+Stepper wheels too small - wires touch the ground
+Stepper wheels really need rubber/something - so either use rubber wheels or o-ring+3x sheets of ply
+cutout on faceplate for camera?
+Do the sides flex too much? Do they need an elastic band or some kind of support?
