@@ -23,6 +23,10 @@
  color("#F80") linear_extrude(height=3,center=true) translate([-46,-15]) import_dxf("bot_castorholder.dxf");
  }
  
+  module baseplate() { 
+ color("#F80") linear_extrude(height=3,center=true) rotate([0,0,180]) translate([-46,-30]) import_dxf("bot_baseplate.dxf");
+ }
+ 
 module side() { 
  linear_extrude(height=3,center=true) translate([0,0]) import_dxf("bot_side.dxf");
 }
@@ -60,7 +64,7 @@ module stepper() {
   }
 }
 
-translate([0,10,40]) rotate([60,0,0]) phone();
+translate([0,10,40]) rotate([45,0,0]) phone();
 //translate([0,10,30]) cube([120,2,2],center=true); // pivot
  
 
@@ -68,8 +72,10 @@ translate([0,10,40]) rotate([60,0,0]) phone();
 translate([-45,0,0])  rotate([90,0,90]) side();
  
 
-translate([0,-30,14])  castor();
-translate([0,-30,14+1.5]) castorholder();
+translate([0,-33,14])  castor();
+translate([0,-33,14+1.5]) castorholder();
+translate([0,30,32+1.5]) castorholder(); // just the top plate
+translate([0,10,14+1.5]) baseplate();
 
 WHEELX=60;
 WHEELY=30;

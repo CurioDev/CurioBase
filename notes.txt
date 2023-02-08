@@ -9,3 +9,11 @@ Motors at front
 Castor at back
 Phone at back (ish)
 
+
+Controller
+-----------
+
+8x motor outputs
+power in
+Extra IO on sparkfun/seeed/etc compatible connector?
+Extra IO on Servo output?
