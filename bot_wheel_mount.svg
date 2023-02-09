@@ -27,15 +27,16 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="3.317351"
-     inkscape:cx="114.24778"
-     inkscape:cy="162.17759"
+     inkscape:zoom="9.3464882"
+     inkscape:cx="37.126244"
+     inkscape:cy="57.347742"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:lockguides="true" />
   <defs
      id="defs843" />
   <g
@@ -53,7 +54,7 @@
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="circle1011"
        cx="-96.162743"
-       cy="18.641939"
+       cy="18.636305"
        r="2.4000001" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
@@ -78,5 +79,18 @@
          cy="18.917612"
          r="1" />
     </g>
+    <path
+       id="circle1012"
+       style="fill:none;stroke:#000000;stroke-width:0.200001"
+       d="m -79.17622,10.464209 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-3.9999996 4,4 0 0 1 4,3.9999996 z m -1.5,0 a 2.5,2.5 0 0 1 -2.5,2.5 2.5,2.5 0 0 1 -2.5,-2.5 2.5,2.5 0 0 1 2.5,-2.4999996 2.5,2.5 0 0 1 2.5,2.4999996 z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -102.82856,18.636304 h 13.331639"
+       id="path1159"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="path1414"
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -100.31738,21.912867 h 8.309276 m -8.309286,-6.541855 h 8.30929" />
   </g>
 </svg>

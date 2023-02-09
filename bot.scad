@@ -19,12 +19,16 @@
      color("#F80") translate([-43,offset+4.5,11.5]) rotate([-90,0,0]) linear_extrude(height=3,center=true) import_dxf("bot_phonebase.dxf");
  }
  
- module castorholder() { 
+module castorholder() { 
  color("#F80") linear_extrude(height=3,center=true) translate([-46,-15]) import_dxf("bot_castorholder.dxf");
  }
  
-  module baseplate() { 
- color("#F80") linear_extrude(height=3,center=true) rotate([0,0,180]) translate([-46,-30]) import_dxf("bot_baseplate.dxf");
+module topplate() { 
+ color("#F80") linear_extrude(height=3,center=true) translate([-46,-15]) import_dxf("bot_topplate.dxf");
+ }
+ 
+module baseplate() { 
+ color("#F80") linear_extrude(height=3,center=true) rotate([0,0,180]) translate([-46,-70]) import_dxf("bot_baseplate.dxf");
  }
  
 module side() { 
@@ -74,15 +78,15 @@ translate([-45,0,0])  rotate([90,0,90]) side();
 
 translate([0,-33,14])  castor();
 translate([0,-33,14+1.5]) castorholder();
-translate([0,30,32+1.5]) castorholder(); // just the top plate
+translate([0,30,35+1.5]) topplate();
 translate([0,10,14+1.5]) baseplate();
 
 WHEELX=60;
 WHEELY=30;
-translate([-45+1.5,WHEELX,WHEELY]) rotate([90,0,-90])  stepper();
-translate([45-1.5,WHEELX,WHEELY]) rotate([90,0,90])  stepper();
+translate([-45+1.5,WHEELX,WHEELY]) rotate([90,-45,-90])  stepper();
+translate([45-1.5,WHEELX,WHEELY]) rotate([90,45,90])  stepper();
 //translate([49,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
-translate([-49,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
+//translate([-49,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 
 
 //roundedrect(80,162,10,12);

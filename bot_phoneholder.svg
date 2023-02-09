@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.1432598"
-     inkscape:cx="62.521585"
-     inkscape:cy="196.89633"
+     inkscape:zoom="2.4556565"
+     inkscape:cx="164.1109"
+     inkscape:cy="115.65135"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
@@ -33,15 +33,16 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-bbox="true"
-     inkscape:snap-object-midpoints="true"
+     inkscape:snap-object-midpoints="false"
      inkscape:snap-bbox-midpoints="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:snap-others="false">
     <inkscape:grid
        type="xygrid"
        id="grid882"
@@ -81,17 +82,15 @@
        height="10"
        x="-1.5"
        y="-10" />
-    <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.200002"
+    <path
        id="rect1489"
-       width="1.5"
-       height="30"
-       x="3"
-       y="-10" />
+       style="fill:none;stroke:#ff0000;stroke-width:0.200002"
+       d="m 3,-10 2.8999999,-0.1 L 4.5,20 H 3 Z"
+       sodipodi:nodetypes="ccccc" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.200001"
        id="rect1591"
-       width="4.5"
+       width="5.8877392"
        height="0.50000012"
        x="0"
        y="-10.5" />
@@ -117,18 +116,16 @@
        x="-87.5"
        y="-10"
        transform="scale(-1,1)" />
-    <rect
-       style="fill:none;stroke:#ff0000;stroke-width:0.200002"
+    <path
        id="rect957"
-       width="1.5"
-       height="30"
-       x="-83"
-       y="-10"
-       transform="scale(-1,1)" />
+       style="fill:none;stroke:#ff0000;stroke-width:0.200002"
+       transform="scale(-1,1)"
+       d="m -83,-10 3.1,-0.1 L -81.5,20 H -83 Z"
+       sodipodi:nodetypes="ccccc" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.200001"
        id="rect959"
-       width="4.5"
+       width="6.0922112"
        height="0.50000012"
        x="-86"
        y="-10.5"
@@ -159,5 +156,10 @@
        d="M 85.784761,-26.100001 83.9,-24.080746 h -5 -2 l -1,1 v 2.000002 l 1,0.999998 h 4 l 1,-0.999998 h 1 l 1,0.999998 v 6.000001 l -1,1 h -1 l -1,-1 h -4 l -1,1 v 1.999999 l 1,1.000001 h 7 l 2,-0.01925 h 1 l 0,-15.980746 z"
        id="path838"
        sodipodi:nodetypes="cccccccccccccccccccccccc" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 11.9,-30.099999 h 61.999999 v 9 c -9.999999,0 -21.999999,21 -30.999999,21 -9,0 -21,-21 -31,-21 z"
+       id="path890"
+       sodipodi:nodetypes="ccczcc" />
   </g>
 </svg>
