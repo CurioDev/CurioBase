@@ -19,6 +19,14 @@
      color("#F80") translate([-43,offset+4.5,11.5]) rotate([-90,0,0]) linear_extrude(height=3,center=true) import_dxf("bot_phonebase.dxf");
  }
  
+ module pcb() { 
+     color("#8F8") translate([0,0,0.8]) roundedrect(46,33,2,1.6); 
+ } 
+ 
+ module battery() { 
+     color("#F44") translate([0,0,17.5/2]) rotate([90,0,90])  roundedrect(26.5,17.5,4,46); 
+ } 
+ 
 module castorholder() { 
  color("#F80") linear_extrude(height=3,center=true) translate([-46,-15]) import_dxf("bot_castorholder.dxf");
  }
@@ -85,6 +93,8 @@ WHEELX=60;
 WHEELY=30;
 translate([-45+1.5,WHEELX,WHEELY]) rotate([90,-45,-90])  stepper();
 translate([45-1.5,WHEELX,WHEELY]) rotate([90,45,90])  stepper();
+translate([0,WHEELX,14+3])  pcb();
+translate([0,WHEELX-36,14+3])  battery();
 //translate([49,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 //translate([-49,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 
