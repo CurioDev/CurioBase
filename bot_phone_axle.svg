@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="102.2mm"
-   height="20.200001mm"
-   viewBox="0 0 102.2 20.200001"
+   width="15.2mm"
+   height="15.2mm"
+   viewBox="0 0 15.2 15.2"
    version="1.1"
-   id="svg888"
+   id="svg846"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="bot_topplate.svg"
+   sodipodi:docname="bot_phone_axle.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview890"
+     id="namedview848"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
@@ -23,52 +23,39 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.4122201"
-     inkscape:cx="137.63255"
-     inkscape:cy="147.16733"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.8907123"
+     inkscape:cx="-49.091268"
+     inkscape:cy="27.501391"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
+     inkscape:lockguides="true" />
   <defs
-     id="defs885" />
+     id="defs843" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.1,0.1)">
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect971"
-       width="96"
-       height="17.729464"
-       x="3"
-       y="0" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect1119"
-       width="102.00001"
-       height="6"
-       x="0"
-       y="0" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect1121"
-       width="102.00001"
-       height="6"
-       x="0"
-       y="14" />
+     transform="translate(107.06275,-13.649939)">
     <circle
-       style="fill:none;stroke:#ff0000;stroke-width:0.2"
-       id="circle1307"
-       cx="58"
-       cy="10"
-       r="1" />
+       style="fill:none;stroke:#000000;stroke-width:0.2"
+       id="path929"
+       cx="-99.462753"
+       cy="21.249939"
+       r="7.5" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.199999"
+       id="rect1035"
+       width="3"
+       height="8"
+       x="-100.96275"
+       y="17.249939" />
   </g>
 </svg>

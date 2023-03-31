@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="92.199997mm"
+   width="102.2mm"
    height="70.199997mm"
-   viewBox="0 0 92.199997 70.199997"
+   viewBox="0 0 102.20001 70.199997"
    version="1.1"
    id="svg888"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.4122201"
-     inkscape:cx="23.629685"
-     inkscape:cy="167.27329"
+     inkscape:zoom="3.7995208"
+     inkscape:cx="220.02775"
+     inkscape:cy="99.223039"
      inkscape:window-width="2560"
-     inkscape:window-height="1409"
-     inkscape:window-x="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
@@ -46,60 +46,114 @@
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect971"
-       width="86"
-       height="22.419554"
+       width="96"
+       height="25"
        x="3"
        y="0" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect1119"
-       width="92"
+       width="102.00001"
        height="6"
        x="0"
        y="0" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect1121"
-       width="92"
+       width="102.00001"
        height="6"
        x="0"
        y="19" />
-    <g
-       id="g835"
-       transform="translate(31.099999,15.463366)">
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.2"
-         id="path1145"
-         cx="1.9"
-         cy="15"
-         r="2" />
-      <circle
-         style="fill:none;stroke:#000000;stroke-width:0.2"
-         id="circle1307"
-         cx="27.9"
-         cy="15"
-         r="2" />
-    </g>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect879"
-       width="92"
+       width="102.00001"
        height="6"
        x="0"
        y="64" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect881"
-       width="44"
+       width="54"
        height="69.355965"
        x="23.999998"
        y="0" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.2"
        id="rect837"
-       width="86"
+       width="96"
        height="6.1690516"
        x="3"
        y="62.843941" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="circle838"
+       cx="44"
+       cy="12.5"
+       r="1.5" />
+    <g
+       id="g850"
+       transform="translate(31.1,40)">
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.2"
+         id="circle1307-3"
+         cx="0.89999998"
+         cy="0.89999998"
+         r="1" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.2"
+         id="circle840"
+         cx="38.900002"
+         cy="0.89999998"
+         r="1" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.2"
+         id="circle842"
+         cx="0.89999998"
+         cy="25.9"
+         r="1" />
+      <circle
+         style="fill:none;stroke:#ff0000;stroke-width:0.2"
+         id="circle844"
+         cx="38.900002"
+         cy="25.9"
+         r="1" />
+    </g>
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="rect874"
+       width="32"
+       height="28"
+       x="35"
+       y="39.400002"
+       rx="2"
+       ry="2" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.199999"
+       id="rect956"
+       width="41"
+       height="19"
+       x="30.5"
+       y="43.900002"
+       rx="1.9999999"
+       ry="2" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="rect882"
+       width="5"
+       height="2"
+       x="71.332237"
+       y="0.90000033"
+       rx="1"
+       ry="1" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="rect966"
+       width="5"
+       height="2"
+       x="71.332237"
+       y="26.9"
+       rx="1"
+       ry="1" />
   </g>
 </svg>

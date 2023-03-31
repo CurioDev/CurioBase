@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="80mm"
-   viewBox="0 0 210 80"
-   version="1.1"
-   id="svg5"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="bot_side.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   id="svg5"
+   version="1.1"
+   viewBox="0 0 210 80"
+   height="80mm"
+   width="210mm"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="3.5580341"
-     inkscape:cx="98.931036"
-     inkscape:cy="200.67261"
+     inkscape:zoom="1.5028112"
+     inkscape:cx="-118.44468"
+     inkscape:cy="167.02031"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
@@ -64,23 +64,17 @@
      id="layer1">
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.2"
-       id="path2110"
-       cx="10"
-       cy="40"
-       r="2.9200001" />
-    <circle
-       style="fill:none;stroke:#ff0000;stroke-width:0.2"
        id="circle2192"
-       cx="10"
-       cy="40"
+       cx="8"
+       cy="35"
        r="65.469582" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.200172"
        id="rect2874"
        width="3.00721"
        height="5.6321173"
-       x="6.2838778"
-       y="-28.498722"
+       x="4.3973503"
+       y="-33.654335"
        inkscape:transform-center-y="-121.998"
        transform="matrix(0.99665293,-0.08174925,0.02323428,0.99973005,0,0)"
        inkscape:transform-center-x="2.8353005" />
@@ -89,8 +83,8 @@
        id="rect2960"
        width="3"
        height="3"
-       x="10.235291"
-       y="-26.974266"
+       x="8.0190973"
+       y="-31.882269"
        inkscape:transform-center-y="-64.939056"
        transform="rotate(2.5)"
        inkscape:transform-center-x="-2.8352967" />
@@ -99,8 +93,8 @@
        id="rect2962"
        width="3"
        height="3"
-       x="13.635619"
-       y="-28.147474"
+       x="11.000098"
+       y="-32.843647"
        inkscape:transform-center-y="-64.444831"
        transform="rotate(7.5)"
        inkscape:transform-center-x="-8.484326" />
@@ -109,8 +103,8 @@
        id="rect2964"
        width="3"
        height="3"
-       x="16.92074"
-       y="-29.612577"
+       x="13.88595"
+       y="-34.06118"
        inkscape:transform-center-y="-63.460143"
        transform="rotate(12.5)"
        inkscape:transform-center-x="-14.068773" />
@@ -119,8 +113,8 @@
        id="rect2966"
        width="3"
        height="3"
-       x="20.065676"
-       y="-31.358423"
+       x="16.654713"
+       y="-35.525597"
        inkscape:transform-center-y="-61.992483"
        transform="rotate(17.5)"
        inkscape:transform-center-x="-19.54615" />
@@ -129,8 +123,8 @@
        id="rect2968"
        width="3"
        height="3"
-       x="23.046486"
-       y="-33.371723"
+       x="19.285309"
+       y="-37.225754"
        inkscape:transform-center-y="-60.053021"
        transform="rotate(22.5)"
        inkscape:transform-center-x="-24.874777" />
@@ -139,8 +133,8 @@
        id="rect2970"
        width="3"
        height="3"
-       x="25.840483"
-       y="-35.637154"
+       x="21.757717"
+       y="-39.148712"
        inkscape:transform-center-y="-57.656519"
        transform="rotate(27.5)"
        inkscape:transform-center-x="-30.014088" />
@@ -149,8 +143,8 @@
        id="rect2972"
        width="3"
        height="3"
-       x="28.426394"
-       y="-38.137478"
+       x="24.053112"
+       y="-41.279835"
        inkscape:transform-center-y="-54.82122"
        transform="rotate(32.5)"
        inkscape:transform-center-x="-34.924969" />
@@ -159,8 +153,8 @@
        id="rect2974"
        width="3"
        height="3"
-       x="30.784555"
-       y="-40.853668"
+       x="26.154041"
+       y="-43.602913"
        inkscape:transform-center-y="-51.568699"
        transform="rotate(37.5)"
        inkscape:transform-center-x="-39.570057" />
@@ -188,8 +182,8 @@
        id="rect1629"
        width="3"
        height="3"
-       x="32.897011"
-       y="-43.765045"
+       x="28.044504"
+       y="-46.10025"
        inkscape:transform-center-y="-47.923704"
        transform="rotate(42.5)"
        inkscape:transform-center-x="-43.913989" />
@@ -198,8 +192,8 @@
        id="rect1631"
        width="3"
        height="3"
-       x="34.747681"
-       y="-46.849461"
+       x="29.710114"
+       y="-48.752857"
        inkscape:transform-center-y="-43.913986"
        transform="rotate(47.5)"
        inkscape:transform-center-x="-47.923709" />
@@ -208,8 +202,8 @@
        id="rect1633"
        width="3"
        height="3"
-       x="36.322483"
-       y="-50.083435"
+       x="31.138193"
+       y="-51.540535"
        inkscape:transform-center-y="-39.570054"
        transform="rotate(52.5)"
        inkscape:transform-center-x="-51.568699" />
@@ -218,8 +212,8 @@
        id="rect1635"
        width="3"
        height="3"
-       x="37.609436"
-       y="-53.442356"
+       x="32.317879"
+       y="-54.44207"
        inkscape:transform-center-y="-34.924969"
        transform="rotate(57.5)"
        inkscape:transform-center-x="-54.821223" />
@@ -228,8 +222,8 @@
        id="rect1637"
        width="3"
        height="3"
-       x="38.59874"
-       y="-56.900658"
+       x="33.240189"
+       y="-57.435379"
        inkscape:transform-center-y="-30.014086"
        transform="rotate(62.5)"
        inkscape:transform-center-x="-57.656524" />
@@ -241,7 +235,7 @@
        inkscape:transform-center-y="5.6633751" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 80.251219,41.428759 c 0,0 3.081497,15.376975 3.081496,20.376974 C 83.332714,66.805734 76.16995,72.000001 67,72 57.830049,71.999999 -42.76368,72.715826 -49.520187,67.854588 -56.276695,62.99335 -50,49 -38,49 -26,49 5.9713189,60.682818 8.4693011,54.669965 11.192877,48.114089 4.4842318,47.645116 3.589998,39.96215 2.6324466,31.735179 12.552288,23.462178 3.1567821,-10.253105 1.9519339,-14.57664 -1.9932771,-31.434333 5.8205728,-30.797501 l 1.5848426,1.797084 1.1540023,4.391055 64.1354813,66.972708 z"
+       d="m 78,39 c 0,0 5.332716,17.805734 5.332715,22.805733 C 83.332714,66.805734 76.16995,72.000001 67,72 57.830049,71.999999 -42.76368,72.715826 -49.520187,67.854588 -56.276695,62.99335 -50,49 -38,49 -26,49 2.5020178,61.012853 5,55 7.7235759,48.444124 -5,45 -5,35 -5,25 12.552288,23.462178 3.1567821,-10.253105 1.9519339,-14.57664 -3.8138499,-34.636832 4,-34 l 3.4054154,4.999583 1.1540023,4.391055 L 68,37 Z"
        id="path1680"
        sodipodi:nodetypes="cszzzsssccccc" />
     <path
@@ -254,8 +248,8 @@
        id="rect848"
        width="3"
        height="3"
-       x="39.282871"
-       y="-60.432026"
+       x="33.898106"
+       y="-60.497684"
        inkscape:transform-center-y="-24.874775"
        transform="rotate(67.5)"
        inkscape:transform-center-x="-60.053022" />
@@ -264,8 +258,8 @@
        id="rect962"
        width="3"
        height="3"
-       x="39.65662"
-       y="-64.009583"
+       x="34.286625"
+       y="-63.605679"
        inkscape:transform-center-y="-19.546152"
        transform="rotate(72.5)"
        inkscape:transform-center-x="-61.992481" />
@@ -274,8 +268,8 @@
        id="rect964"
        width="3"
        height="3"
-       x="39.717144"
-       y="-67.606094"
+       x="34.402786"
+       y="-66.735703"
        inkscape:transform-center-y="-14.068771"
        transform="rotate(77.5)"
        inkscape:transform-center-x="-63.460137" />
@@ -284,8 +278,8 @@
        id="rect966"
        width="3"
        height="3"
-       x="39.463978"
-       y="-71.194199"
+       x="34.245701"
+       y="-69.863937"
        inkscape:transform-center-y="-8.4843197"
        transform="rotate(82.5)"
        inkscape:transform-center-x="-64.44483" />
@@ -294,8 +288,8 @@
        id="rect968"
        width="3"
        height="3"
-       x="38.899052"
-       y="-74.74659"
+       x="33.81657"
+       y="-72.966591"
        inkscape:transform-center-y="-2.835296"
        transform="rotate(87.5)"
        inkscape:transform-center-x="-64.939056" />
@@ -304,8 +298,8 @@
        id="rect970"
        width="3.0109758"
        height="6.6037416"
-       x="39.919872"
-       y="-84.104195"
+       x="34.946102"
+       y="-81.627525"
        inkscape:transform-center-y="2.8353051"
        transform="matrix(-0.09573939,0.99540643,-0.99980365,-0.01981576,0,0)"
        inkscape:transform-center-x="-143.05501" />
@@ -340,8 +334,8 @@
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.2"
        id="path1243"
-       cx="33.988026"
-       cy="15.437801"
+       cx="31.988026"
+       cy="10.437801"
        r="21.910406" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.2"
@@ -350,23 +344,17 @@
        height="3"
        x="74"
        y="63" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect879"
-       width="17"
-       height="7"
-       x="27.5"
-       y="52"
-       rx="1"
-       ry="1" />
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.2"
-       id="rect961"
-       width="17"
-       height="7"
-       x="-44.5"
-       y="53"
-       rx="1"
-       ry="1" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="circle1083"
+       cx="22.5"
+       cy="58.5"
+       r="7.5" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.2"
+       id="circle1722"
+       cx="7"
+       cy="35"
+       r="7.5" />
   </g>
 </svg>
