@@ -6,15 +6,13 @@ Recent requests
 ---------------
 
 Needs to go faster
-Put degree markings on the rotation points
-Put A/B/C markings on the rotation points. All markings to be on the inside to people can put stickers/customize the outside
-Let's do:
-A for 0° (Vertical)
-B for 20° (5th crank)
-C for 45° (10th crank)
-D for 65° (14th crank)
-E for 90° (horizontal)
-
+X Put degree markings on the rotation points
+X Put A/B/C markings on the rotation points. All markings to be on the inside to people can put stickers/customize the outside. Let's do:
+  A for 0° (Vertical)
+  B for 20° (5th crank)
+  C for 45° (10th crank)
+  D for 65° (14th crank)
+  E for 90° (horizontal)
 X Have only bottom and top tabs, which are single indents.
 X Add another 10mm to the width
 X Move battery to middle, hold in place with zip tie
