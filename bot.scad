@@ -115,7 +115,7 @@ translate([0,WHEELX+3,14+3])  pcb();
 translate([-25,WHEELX-36,14+3.2])  battery();
 //translate([7,WHEELX-36,30])  cylinder(r=1.5,h=40,center=true); // screw to hold battery in
 
-//translate([BOTWH+4,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
+translate([BOTWH+4,WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 //translate([-(BOTWH+4),WHEELX,WHEELY])  rotate([90,0,90]) wheel();
 
 
