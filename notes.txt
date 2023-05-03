@@ -1,11 +1,17 @@
 
+3mm birch laser ply (poplar isn't strong enough)
+Wheels: FS-90RW-C001 / https://www.rapidonline.com/feetech-wheel-for-use-with-fs90r-servo-servo-not-included-37-1338
+Steppers: 28BYJ-48
+JST cable
+9V battery clip
+
 
 
 
 Recent requests
 ---------------
 
-Needs to go faster
+X Needs to go faster
 X Put degree markings on the rotation points
 X Put A/B/C markings on the rotation points. All markings to be on the inside to people can put stickers/customize the outside. Let's do:
   A for 0° (Vertical)
