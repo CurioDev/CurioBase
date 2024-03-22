@@ -11,6 +11,7 @@ JST cable
 Recent requests
 ---------------
 
+Move battery bolt hole inwards to align
 X Needs to go faster
 X Put degree markings on the rotation points
 X Put A/B/C markings on the rotation points. All markings to be on the inside to people can put stickers/customize the outside. Let's do:
