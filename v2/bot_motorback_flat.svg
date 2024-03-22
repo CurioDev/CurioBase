@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="bot_motorback_flat.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.3751757"
+     inkscape:cx="-57.478489"
+     inkscape:cy="311.09492"
+     inkscape:window-width="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-page="true"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1416"
+       style="fill:none;stroke:#000000;stroke-width:0.377952"
+       d="M -177.63867 275.90625 C -181.82639 275.90625 -185.19727 279.27713 -185.19727 283.46484 L -196.53516 283.46484 L -196.53516 302.36133 L -185.19727 302.36133 L -185.19727 307.66211 L -185.19727 374.92969 L -115.48828 374.92969 L -115.48828 384.58984 C -115.48828 385.63677 -114.64458 386.48047 -113.59766 386.48047 L -87.150391 386.48047 C -86.103464 386.48047 -85.259766 385.63677 -85.259766 384.58984 L -85.259766 374.92969 L 85.259766 374.92969 L 85.259766 384.58984 C 85.259766 385.63677 86.103464 386.48047 87.150391 386.48047 L 113.59766 386.48047 C 114.64458 386.48047 115.48828 385.63677 115.48828 384.58984 L 115.48828 374.92969 L 185.19727 374.92969 L 185.19727 302.36133 L 196.53516 302.36133 L 196.53516 283.46484 L 185.19727 283.46484 C 185.19727 279.27713 181.82639 275.90625 177.63867 275.90625 L 60.472656 275.90625 L 60.472656 285.35352 C 60.472656 286.40044 59.628958 287.24414 58.582031 287.24414 L 17.007812 287.24414 C 15.960887 287.24414 15.117187 286.40044 15.117188 285.35352 L 15.117188 275.90625 L -15.117188 275.90625 L -15.117188 285.35352 C -15.117187 286.40044 -15.960887 287.24414 -17.007812 287.24414 L -58.582031 287.24414 C -59.628958 287.24414 -60.472656 286.40044 -60.472656 285.35352 L -60.472656 275.90625 L -177.63867 275.90625 z M -152.31445 322.01562 L -140.97656 322.01562 L -140.97656 340.91406 L -152.31445 340.91406 L -152.31445 322.01562 z M 140.97656 322.01562 L 152.31445 322.01562 L 152.31445 340.91406 L 140.97656 340.91406 L 140.97656 322.01562 z "
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

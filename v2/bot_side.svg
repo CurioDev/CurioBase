@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="bot_side.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.3180582"
+     inkscape:cx="166.62543"
+     inkscape:cy="315.57846"
+     inkscape:window-width="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect635"
+       style="fill:none;stroke:#000000;stroke-width:0.0999989"
+       d="m -31.234,75 78.842766,0 c 7.135162,0 24.096445,11.552777 24.096445,20.880916 v 3.119086 C 71.705211,102.324 69.02921,105 65.70521,105 l -96.93921,0 c -3.324001,0 -6.000001,-2.676 -6.000001,-5.999998 V 81 c 0,-3.324 2.676,-6 6.000001,-6 z"
+       sodipodi:nodetypes="sssssssss" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="rect3931"
+       width="1.6"
+       height="20"
+       x="99.199997"
+       y="-25.910233"
+       transform="matrix(0,1,1,0,0,0)" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="rect4035"
+       width="1.6"
+       height="20"
+       x="99.199997"
+       y="4.0897679"
+       transform="matrix(0,1,1,0,0,0)" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="path227"
+       cx="-7.5307269"
+       cy="87.953522"
+       r="2" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle309"
+       cx="-17.963032"
+       cy="87.953522"
+       r="5.5" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="rect468"
+       width="3.5"
+       height="5.5"
+       x="11.8"
+       y="85.203522" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="path761"
+       cx="1.7"
+       cy="79.10347"
+       r="1.5" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="circle915"
+       cx="1.7"
+       cy="96.803574"
+       r="1.5" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="rect15"
+       width="1.6"
+       height="5"
+       x="-31.233999"
+       y="75" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.1"
+       id="rect44"
+       width="1.6"
+       height="5"
+       x="28.200001"
+       y="75" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 35.894246,74.128642 h 3.024963 l 5.385223,10.819871 h -8.455268 z"
+       id="path211" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 56.785256,76.252884 3.024963,2.822038 5.385223,10.819871 h -8.455268 z"
+       id="path326"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
