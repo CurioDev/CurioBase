@@ -61,13 +61,14 @@ translate([-30.5,0,0]) motorbackplate();
 translate([0,50,0]) sideplate();
 translate([0,-50,0]) sideplate();
 
-translate([36,0,0]) phonebackplate();
+// phone vertical
+//translate([36,0,0]) phonebackplate();
 //translate([36,0,30]) rotate([90,0,90])phone();
 
+// phone angled
 translate([52,0,0]) rotate([0,-30,0]) phonebackplate();
 translate([38,0,25]) rotate([60,0,90])phone();
-
-//translate([-18,0,0]) cube([1,100,1],center=true)
+translate([66,0,8]) cube([3,105,6],center=true)
  
  //cube(10, center=true);
 translate([0,-40,12]) motor();
