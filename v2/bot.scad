@@ -75,8 +75,10 @@ translate([0,-(WIDTH+SIDETHICKNESS+1)/2,0]) sideplate();
 //translate([36,0,30]) rotate([90,0,90])phone();
 
 // phone angled
-translate([52,0,0]) rotate([0,-30,0]) phonebackplate();
-translate([36,0,25]) rotate([60,0,90])phone();
+translate([38.54,0,1.2]) rotate([0,-10,0]) phonebackplate();
+translate([46,0,1.5]) rotate([0,-25,0]) phonebackplate();
+translate([56,0,2]) rotate([0,-40,0]) phonebackplate();
+//translate([36,0,25]) rotate([60,0,90])phone();
 //translate([66,0,8]) cube([3,WIDTH+5,4],center=true);
  
  //cube(10, center=true);
