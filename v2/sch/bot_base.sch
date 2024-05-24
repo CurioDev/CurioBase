@@ -8447,73 +8447,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
-<library name="pimoroni-mechanical">
-<packages>
-<package name="LY-SK-03">
-<wire x1="-3.35" y1="1.3" x2="3.35" y2="1.3" width="0.127" layer="21"/>
-<wire x1="3.35" y1="1.3" x2="3.35" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="3.35" y1="-1.4" x2="-3.35" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-3.35" y1="-1.4" x2="-3.35" y2="1.3" width="0.127" layer="21"/>
-<circle x="-2.4" y="0.9" radius="0.08" width="0.15" layer="21"/>
-<wire x1="0.3" y1="-3" x2="0.3" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="0.3" y1="-3" x2="1.6" y2="-3" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-3" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
-<smd name="MT1" x="-3.6" y="-1.3" dx="1.4" dy="0.8" layer="1"/>
-<smd name="MT2" x="-3.6" y="1.3" dx="1.4" dy="0.8" layer="1"/>
-<smd name="MT3" x="3.6" y="1.3" dx="1.4" dy="0.8" layer="1"/>
-<smd name="MT4" x="3.6" y="-1.3" dx="1.4" dy="0.8" layer="1"/>
-<hole x="-1.5" y="0" drill="0.8"/>
-<hole x="1.5" y="0" drill="0.8"/>
-<smd name="1" x="-2.25" y="2.25" dx="2" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="-0.75" y="2.25" dx="2" dy="0.8" layer="1" rot="R90"/>
-<smd name="3" x="0.75" y="2.25" dx="2" dy="0.8" layer="1" rot="R90"/>
-<smd name="4" x="2.25" y="2.25" dx="2" dy="0.8" layer="1" rot="R90"/>
-<wire x1="-0.3" y1="-3" x2="-0.3" y2="-1.4" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-3" x2="-0.3" y2="-3" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="-3" x2="-1.6" y2="-1.4" width="0.05" layer="51" style="dashdot"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LY-SK-03">
-<pin name="1" x="-22.86" y="7.62" visible="off" length="short"/>
-<pin name="2" x="-22.86" y="2.54" visible="off" length="short"/>
-<pin name="3" x="-7.62" y="7.62" visible="off" length="short" rot="R180"/>
-<pin name="4" x="-7.62" y="2.54" visible="off" length="short" rot="R180"/>
-<wire x1="-20.32" y1="7.62" x2="-18.415" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-11.938" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-17.145" y1="2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="2.54" x2="-13.335" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="2.54" x2="-15.24" y2="8.89" width="0.254" layer="94" style="shortdash"/>
-<circle x="-17.78" y="2.54" radius="0.567959375" width="0.254" layer="94"/>
-<circle x="-12.7" y="2.54" radius="0.567959375" width="0.254" layer="94"/>
-<circle x="-12.7" y="7.62" radius="0.567959375" width="0.254" layer="94"/>
-<circle x="-17.78" y="7.62" radius="0.567959375" width="0.254" layer="94"/>
-<wire x1="-17.145" y1="7.747" x2="-13.462" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="2.54" x2="-18.415" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="2.54" x2="-12.065" y2="2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LY-SK-03">
-<gates>
-<gate name="G$1" symbol="LY-SK-03" x="15.24" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="LY-SK-03">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Seeed-OPL-Button">
 <packages>
 <package name="SW4-SMD-6.0X6.0X5.0MM">
@@ -8918,6 +8851,116 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
+<library name="switch-MSK-12C02">
+<packages>
+<package name="MSK-12C02">
+<description>Footprint of the VIMEX MSK-12C02 SPDT SMD Switch
+Created by mzst on 17-Jan-2016</description>
+<wire x1="-3.35" y1="-1.35" x2="-3.35" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="0.9" x2="-3.35" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="1.35" x2="-2.377" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-1.977" y1="1.35" x2="0.623" y2="1.35" width="0.127" layer="51"/>
+<wire x1="2.523" y1="1.35" x2="3.35" y2="1.35" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.35" x2="3.35" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="3.35" y1="-1.35" x2="-0.15" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-1.35" x2="-3.35" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-2.377" y1="1.35" x2="-2.377" y2="2.35" width="0.05" layer="51"/>
+<wire x1="-2.377" y1="2.35" x2="-1.977" y2="2.35" width="0.05" layer="51"/>
+<wire x1="-1.977" y1="2.35" x2="-1.977" y2="1.35" width="0.05" layer="51"/>
+<wire x1="-1.977" y1="1.35" x2="-2.377" y2="1.35" width="0.127" layer="51"/>
+<wire x1="0.623" y1="1.35" x2="0.623" y2="2.35" width="0.05" layer="51"/>
+<wire x1="0.623" y1="2.35" x2="1.023" y2="2.35" width="0.05" layer="51"/>
+<wire x1="1.023" y1="2.35" x2="1.023" y2="1.35" width="0.05" layer="51"/>
+<wire x1="1.023" y1="1.35" x2="0.623" y2="1.35" width="0.127" layer="51"/>
+<wire x1="2.123" y1="1.35" x2="2.123" y2="2.35" width="0.05" layer="51"/>
+<wire x1="2.123" y1="2.35" x2="2.523" y2="2.35" width="0.05" layer="51"/>
+<wire x1="2.523" y1="2.35" x2="2.523" y2="1.35" width="0.05" layer="51"/>
+<wire x1="2.523" y1="1.35" x2="2.123" y2="1.35" width="0.127" layer="51"/>
+<wire x1="2.123" y1="1.35" x2="1.023" y2="1.35" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-1.35" x2="-1.45" y2="-2.85" width="0.025" layer="51"/>
+<wire x1="-1.45" y1="-2.85" x2="-0.15" y2="-2.85" width="0.025" layer="51"/>
+<wire x1="-0.15" y1="-2.85" x2="-0.15" y2="-1.35" width="0.025" layer="51"/>
+<wire x1="-0.15" y1="-1.35" x2="-1.45" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="0.05" y1="-1.35" x2="0.05" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="0.05" y1="-2.85" x2="1.35" y2="-2.85" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-2.85" x2="1.35" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="0" x2="-1.5" y2="0.4" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="0.4" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="0" x2="-1.5" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="1.9" y1="0" x2="1.5" y2="0" width="0.05" layer="51"/>
+<wire x1="-1.9" y1="0" x2="-1.5" y2="0" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="0" x2="-1.1" y2="0" width="0.05" layer="51"/>
+<wire x1="1.5" y1="0" x2="1.1" y2="0" width="0.05" layer="51"/>
+<smd name="COM" x="0.823" y="2.1" dx="0.8" dy="2" layer="1" rot="R180"/>
+<smd name="GND@2" x="-3.8" y="1.125" dx="0.9" dy="0.8" layer="1" rot="R180"/>
+<smd name="GND@1" x="-3.75" y="-1.125" dx="1" dy="0.8" layer="1" rot="R180"/>
+<smd name="GND@3" x="3.8" y="1.125" dx="0.9" dy="0.8" layer="1" rot="R180"/>
+<smd name="GND@4" x="3.75" y="-1.125" dx="1" dy="0.8" layer="1" rot="R180"/>
+<smd name="L2" x="-2.177" y="2.1" dx="0.8" dy="2" layer="1" rot="R180"/>
+<smd name="L1" x="2.323" y="2.1" dx="0.8" dy="2" layer="1" rot="R180"/>
+<hole x="-1.5" y="0" drill="0.8"/>
+<hole x="1.5" y="0" drill="0.8"/>
+<wire x1="-3.35" y1="0.7" x2="-3.35" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-3" y1="-1.35" x2="0.05" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="0.05" y1="-1.35" x2="1.35" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-1.35" x2="3" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="3.35" y1="-0.6" x2="3.35" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.35" x2="0.3" y2="1.35" width="0.127" layer="21"/>
+<wire x1="0.05" y1="-2.85" x2="1.35" y2="-2.85" width="0.127" layer="21"/>
+<wire x1="0.05" y1="-2.85" x2="0.05" y2="-1.35" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-2.85" x2="1.35" y2="-1.35" width="0.127" layer="21"/>
+<text x="0" y="-1" size="0.4064" layer="27">&gt;Value</text>
+<text x="-3" y="-1" size="0.4064" layer="25">&gt;Name</text>
+<wire x1="-3.35" y1="1.35" x2="-4" y2="1.35" width="0.05" layer="51"/>
+<wire x1="-4" y1="1.35" x2="-4" y2="0.9" width="0.05" layer="51"/>
+<wire x1="-4" y1="0.9" x2="-3.35" y2="0.9" width="0.05" layer="51"/>
+<wire x1="-4" y1="-0.9" x2="-4" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="4" y1="-0.9" x2="4" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="4" y1="1.35" x2="4" y2="0.9" width="0.05" layer="51"/>
+<wire x1="4" y1="1.35" x2="3.4" y2="1.35" width="0.05" layer="51"/>
+<wire x1="4" y1="0.9" x2="3.4" y2="0.9" width="0.05" layer="51"/>
+<wire x1="3.4" y1="-0.9" x2="4" y2="-0.9" width="0.05" layer="51"/>
+<wire x1="4" y1="-1.35" x2="3.4" y2="-1.35" width="0.05" layer="51"/>
+<wire x1="-4" y1="-0.9" x2="-3.4" y2="-0.9" width="0.05" layer="51"/>
+<wire x1="-4" y1="-1.35" x2="-3.4" y2="-1.35" width="0.05" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SPDT_SWITCH">
+<pin name="COM" x="-7.62" y="0" length="short"/>
+<pin name="L2" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="L1" x="2.54" y="-2.54" length="short" rot="R180"/>
+<circle x="0" y="2.54" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="-5.08" y="0" radius="0.915809375" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;Name</text>
+<text x="-5.08" y="-7.62" size="1.27" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MSK-12C02_SMD_SPDT_SWITCH">
+<description>Footprint of the VIMEX MSK-12C02 SPDT SMD Switch
+Created by mzst on 17-Jan-2016</description>
+<gates>
+<gate name="MSK-12C02" symbol="SPDT_SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSK-12C02">
+<connects>
+<connect gate="MSK-12C02" pin="COM" pad="COM"/>
+<connect gate="MSK-12C02" pin="L1" pad="L1"/>
+<connect gate="MSK-12C02" pin="L2" pad="L2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8966,8 +9009,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="F1" library="rcl" deviceset="R-EU_" device="R0603" value="MF-FSMF050X-2"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="U$5" library="pimoroni-mechanical" deviceset="LY-SK-03" device=""/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="RED"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="300"/>
@@ -8996,16 +9037,12 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="K2" library="Seeed-OPL-Button" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device="" value="DTSM-62K-S-V-T/R"/>
+<part name="U$10" library="switch-MSK-12C02" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="139.7" y="91.44" size="1.778" layer="94">LGS4084HB5</text>
-<text x="139.7" y="154.94" size="1.778" layer="91">TODO:
-
-on/off switch
-LEDs
-buttons for distance sensing</text>
 <text x="-22.86" y="81.28" size="1.778" layer="91">Boot mode</text>
 <text x="60.96" y="93.98" size="1.778" layer="91">Boot mode</text>
 </plain>
@@ -9048,8 +9085,6 @@ buttons for distance sensing</text>
 <instance part="GND28" gate="1" x="-19.05" y="139.7" rot="R270"/>
 <instance part="F1" gate="G$1" x="53.34" y="144.78"/>
 <instance part="P+7" gate="VCC" x="0" y="96.52" rot="R90"/>
-<instance part="U$5" gate="G$1" x="116.84" y="119.38"/>
-<instance part="GND14" gate="1" x="91.44" y="114.3"/>
 <instance part="LED2" gate="G$1" x="58.42" y="88.9" rot="R270"/>
 <instance part="R3" gate="G$1" x="68.58" y="88.9" rot="R180"/>
 <instance part="R4" gate="G$1" x="132.08" y="-5.08" rot="MR0"/>
@@ -9078,6 +9113,7 @@ buttons for distance sensing</text>
 <instance part="GND13" gate="1" x="-27.94" y="63.5" rot="R90"/>
 <instance part="P+15" gate="1" x="-27.94" y="66.04" rot="R270"/>
 <instance part="K2" gate="G$1" x="90.17" y="83.82"/>
+<instance part="U$10" gate="MSK-12C02" x="104.14" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -9224,18 +9260,6 @@ buttons for distance sensing</text>
 <wire x1="50.8" y1="132.08" x2="57.15" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="121.92" x2="91.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="121.92" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="U$5" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="119.38" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="121.92" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="119.38" x2="91.44" y2="119.38" width="0.1524" layer="91"/>
-<junction x="91.44" y="119.38"/>
-</segment>
-<segment>
 <label x="-30.48" y="33.02" size="1.778" layer="95"/>
 <pinref part="Q0" gate="J1" pin="1"/>
 <wire x1="-33.02" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
@@ -9329,9 +9353,9 @@ buttons for distance sensing</text>
 <label x="111.76" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="127" x2="81.28" y2="127" width="0.1524" layer="91"/>
-<label x="81.28" y="127" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<label x="83.82" y="124.46" size="1.778" layer="95"/>
+<pinref part="U$10" gate="MSK-12C02" pin="COM"/>
+<wire x1="81.28" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -9428,11 +9452,13 @@ buttons for distance sensing</text>
 <junction x="121.92" y="132.08"/>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="127" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="127" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
 <junction x="121.92" y="127"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="U$5" gate="G$1" pin="3"/>
+<pinref part="U$10" gate="MSK-12C02" pin="L1"/>
+<wire x1="111.76" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="121.92" x2="111.76" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
@@ -9697,14 +9723,7 @@ buttons for distance sensing</text>
 <approved hash="208,1,195.58,40.64,VCC,sup,,,,"/>
 <approved hash="208,1,195.58,15.24,VCC,sup,,,,"/>
 <approved hash="208,1,-20.32,35.56,VCC,sup,,,,"/>
-<approved hash="208,1,-27.94,5.08,VCC,sup,,,,"/>
 </errors>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
