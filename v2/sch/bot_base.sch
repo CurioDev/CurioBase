@@ -189,16 +189,16 @@
 <libraries>
 <library name="ir-XINGLIGHT-XL-ITR9608">
 <packages>
-<package name="XL-ITR9608">
-<pad name="P$1" x="-5" y="-1.27" drill="0.8" shape="octagon"/>
-<pad name="P$2" x="-5" y="1.27" drill="0.8" shape="octagon"/>
-<pad name="P$3" x="5" y="1.27" drill="0.8" shape="octagon"/>
-<pad name="P$4" x="5" y="-1.27" drill="0.8" shape="octagon"/>
+<package name="XL-ITR9707">
+<pad name="P$1" x="-4.8" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="P$2" x="-4.8" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="P$3" x="4.8" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="P$4" x="4.8" y="-1.27" drill="0.8" shape="octagon"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="3" x2="6.5" y2="3" width="0.127" layer="21"/>
-<wire x1="6.5" y1="3" x2="6.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="6.5" y1="-3" x2="-6.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="-3" x2="-6.5" y2="3" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="3" x2="6.4" y2="3" width="0.127" layer="21"/>
+<wire x1="6.4" y1="3" x2="6.4" y2="-3" width="0.127" layer="21"/>
+<wire x1="6.4" y1="-3" x2="-6.4" y2="-3" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-3" x2="-6.4" y2="3" width="0.127" layer="21"/>
 <wire x1="1.016" y1="0.381" x2="1.27" y2="0" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0" x2="1.016" y2="-0.381" width="0.127" layer="21"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.127" layer="21"/>
@@ -227,15 +227,15 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="XL-ITR9608">
+<deviceset name="XL-ITR9707">
 <gates>
 <gate name="G$1" symbol="XL-ITR9608" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XL-ITR9608">
+<device name="" package="XL-ITR9707">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$1" pad="P$2"/>
+<connect gate="G$1" pin="P$2" pad="P$1"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
@@ -8522,8 +8522,12 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <library name="testpoint">
 <packages>
 <package name="PCBSIDE2">
-<pad name="P$1" x="0" y="1.27" drill="0.000025" diameter="1.9304" shape="long"/>
-<pad name="P$2" x="0" y="-1.27" drill="0.000025" diameter="1.9304" shape="long"/>
+<pad name="P$1" x="0" y="1.27" drill="0.000025" diameter="2.286" shape="long"/>
+<pad name="P$2" x="0" y="-1.27" drill="0.000025" diameter="2.286" shape="long"/>
+<pad name="P$3" x="-1.905" y="1.27" drill="0.5" diameter="2.286" shape="long"/>
+<pad name="P$4" x="1.905" y="1.27" drill="0.5" diameter="2.286" shape="long"/>
+<pad name="P$5" x="-1.905" y="-1.27" drill="0.5" diameter="2.286" shape="long"/>
+<pad name="P$6" x="1.905" y="-1.27" drill="0.5" diameter="2.286" shape="long"/>
 </package>
 </packages>
 <symbols>
@@ -8543,8 +8547,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <devices>
 <device name="" package="PCBSIDE2">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$1" pad="P$1 P$3 P$4"/>
+<connect gate="G$1" pin="P$2" pad="P$2 P$5 P$6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8971,8 +8975,8 @@ Created by mzst on 17-Jan-2016</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="ir-XINGLIGHT-XL-ITR9608" deviceset="XL-ITR9608" device=""/>
-<part name="U$2" library="ir-XINGLIGHT-XL-ITR9608" deviceset="XL-ITR9608" device=""/>
+<part name="U$1" library="ir-XINGLIGHT-XL-ITR9608" deviceset="XL-ITR9707" device=""/>
+<part name="U$2" library="ir-XINGLIGHT-XL-ITR9608" deviceset="XL-ITR9707" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U$3" library="motordriver-GR6205" deviceset="GR6205" device=""/>
@@ -9011,8 +9015,8 @@ Created by mzst on 17-Jan-2016</description>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="RED"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="300"/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="300"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="100"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -9038,6 +9042,8 @@ Created by mzst on 17-Jan-2016</description>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="K2" library="Seeed-OPL-Button" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device="" value="DTSM-62K-S-V-T/R"/>
 <part name="U$10" library="switch-MSK-12C02" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
+<part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="RED"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9114,6 +9120,8 @@ Created by mzst on 17-Jan-2016</description>
 <instance part="P+15" gate="1" x="-27.94" y="66.04" rot="R270"/>
 <instance part="K2" gate="G$1" x="90.17" y="83.82"/>
 <instance part="U$10" gate="MSK-12C02" x="104.14" y="124.46"/>
+<instance part="LED3" gate="G$1" x="175.26" y="124.46"/>
+<instance part="R13" gate="G$1" x="175.26" y="111.76" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9233,6 +9241,11 @@ Created by mzst on 17-Jan-2016</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="116.84" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 <junction x="121.92" y="116.84"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="106.68" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="104.14" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+<junction x="167.64" y="111.76"/>
 </segment>
 <segment>
 <pinref part="BAT" gate="G$1" pin="-"/>
@@ -9383,11 +9396,15 @@ Created by mzst on 17-Jan-2016</description>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="127" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
 <junction x="167.64" y="132.08"/>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="167.64" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="175.26" y1="132.08" x2="175.26" y2="127" width="0.1524" layer="91"/>
+<junction x="175.26" y="132.08"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
@@ -9702,6 +9719,13 @@ Created by mzst on 17-Jan-2016</description>
 <wire x1="-2.54" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
 <label x="0" y="81.28" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="IO4"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="119.38" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
