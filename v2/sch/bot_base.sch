@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7908,64 +7908,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
-<library name="mcp1703t">
-<packages>
-<package name="SOT23A">
-<wire x1="-0.1905" y1="-0.635" x2="0.1905" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.4605" y1="-0.254" x2="1.4605" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.4605" y1="0.635" x2="0.6985" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-0.6985" y1="0.635" x2="-1.4605" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-1.4605" y1="0.635" x2="-1.4605" y2="-0.254" width="0.127" layer="21"/>
-<smd name="3" x="0" y="1.35" dx="1.016" dy="1.143" layer="1"/>
-<smd name="2" x="0.889" y="-1.35" dx="1.016" dy="1.143" layer="1"/>
-<smd name="1" x="-0.889" y="-1.35" dx="1.016" dy="1.143" layer="1" rot="R180"/>
-<text x="-1.905" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.651" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="1.0112" x2="0.2286" y2="1.5954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.5954" x2="1.1684" y2="-1.0112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.5954" x2="-0.7112" y2="-1.0112" layer="51"/>
-<rectangle x1="-1.524" y1="-1.951" x2="1.524" y2="1.951" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MCP1703T">
-<wire x1="-8.89" y1="3.81" x2="8.89" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="8.89" y1="3.81" x2="8.89" y2="0" width="0.1524" layer="94"/>
-<wire x1="8.89" y1="0" x2="8.89" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="8.89" y1="-3.81" x2="0" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="0" y1="-3.81" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="0" width="0.1524" layer="94"/>
-<pin name="VIN" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="VOUT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
-<pin name="VSS" x="0" y="-7.62" length="short" direction="sup" rot="R90"/>
-<wire x1="-8.89" y1="0" x2="-8.89" y2="3.81" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="0" x2="-8.89" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="8.89" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="3.81" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
-<text x="-8.89" y="3.81" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MCP1703T">
-<gates>
-<gate name="G$1" symbol="MCP1703T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23A">
-<connects>
-<connect gate="G$1" pin="VIN" pad="3"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ESP32-C3-MINI-1-N4">
 <packages>
 <package name="XCVR_ESP32-C3-MINI-1-N4">
@@ -8965,6 +8907,64 @@ Created by mzst on 17-Jan-2016</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="vreg">
+<packages>
+<package name="SOT223">
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.473" y1="4.483" x2="3.473" y2="4.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-4.483" x2="-3.473" y2="-4.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-4.483" x2="-3.473" y2="4.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="4.483" x2="3.473" y2="-4.483" width="0.0508" layer="39"/>
+<smd name="1" x="-2.286" y="-3.175" dx="1.27" dy="2.286" layer="1"/>
+<smd name="2" x="0" y="-3.175" dx="1.27" dy="2.286" layer="1"/>
+<smd name="3" x="2.286" y="-3.175" dx="1.27" dy="2.286" layer="1"/>
+<smd name="TER" x="0" y="3.175" dx="3.556" dy="2.159" layer="1"/>
+<text x="-3.81" y="-3.81" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="0.889" layer="27" ratio="11" rot="R90">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP1703T">
+<wire x1="-8.89" y1="3.81" x2="8.89" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="8.89" y2="0" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-3.81" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.81" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="0" width="0.1524" layer="94"/>
+<pin name="VIN" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="VOUT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="VSS" x="0" y="-7.62" length="short" direction="sup" rot="R90"/>
+<wire x1="-8.89" y1="0" x2="-8.89" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-8.89" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="3.81" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-8.89" y="3.81" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AP7361C-33E-13">
+<gates>
+<gate name="G$1" symbol="MCP1703T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8994,7 +8994,6 @@ Created by mzst on 17-Jan-2016</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="U2" library="mcp1703t" deviceset="MCP1703T" device="" value="AP7370-33SA (or MCP1703T-3302E/CB backup)"/>
 <part name="BAT" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" value="C47647 / S2B-PH-SM4-TB"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF"/>
@@ -9044,6 +9043,9 @@ Created by mzst on 17-Jan-2016</description>
 <part name="U$10" library="switch-MSK-12C02" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="RED"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="U$5" library="vreg" deviceset="AP7361C-33E-13" device=""/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9070,15 +9072,14 @@ Created by mzst on 17-Jan-2016</description>
 <instance part="R2" gate="G$1" x="182.88" y="83.82" rot="R180"/>
 <instance part="LED1" gate="G$1" x="172.72" y="83.82" rot="R270"/>
 <instance part="C1" gate="G$1" x="167.64" y="121.92" rot="R180"/>
-<instance part="GND10" gate="1" x="147.32" y="104.14"/>
+<instance part="GND10" gate="1" x="147.32" y="99.06"/>
 <instance part="P+3" gate="VCC" x="182.88" y="132.08" rot="R270"/>
-<instance part="U2" gate="G$1" x="147.32" y="132.08"/>
 <instance part="BAT" gate="G$1" x="101.6" y="101.6" rot="R90"/>
 <instance part="GND12" gate="1" x="119.38" y="101.6" rot="R90"/>
-<instance part="C2" gate="G$1" x="121.92" y="119.38" rot="R180"/>
+<instance part="C2" gate="G$1" x="91.44" y="116.84" rot="R180"/>
 <instance part="C3" gate="G$1" x="38.1" y="-20.32" rot="R180"/>
 <instance part="C4" gate="G$1" x="38.1" y="5.08" rot="R180"/>
-<instance part="P+1" gate="1" x="121.92" y="139.7"/>
+<instance part="P+1" gate="1" x="129.54" y="137.16"/>
 <instance part="P+2" gate="1" x="38.1" y="17.78"/>
 <instance part="P+4" gate="1" x="38.1" y="-7.62"/>
 <instance part="P+5" gate="VCC" x="81.28" y="99.06" rot="R270"/>
@@ -9120,8 +9121,11 @@ Created by mzst on 17-Jan-2016</description>
 <instance part="P+15" gate="1" x="-27.94" y="66.04" rot="R270"/>
 <instance part="K2" gate="G$1" x="90.17" y="83.82"/>
 <instance part="U$10" gate="MSK-12C02" x="104.14" y="124.46"/>
-<instance part="LED3" gate="G$1" x="175.26" y="124.46"/>
-<instance part="R13" gate="G$1" x="175.26" y="111.76" rot="R90"/>
+<instance part="LED3" gate="G$1" x="129.54" y="127"/>
+<instance part="R13" gate="G$1" x="129.54" y="114.3" rot="R90"/>
+<instance part="GND14" gate="1" x="91.44" y="109.22"/>
+<instance part="U$5" gate="G$1" x="147.32" y="132.08"/>
+<instance part="C5" gate="G$1" x="173.99" y="121.92" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9228,26 +9232,6 @@ Created by mzst on 17-Jan-2016</description>
 <junction x="114.3" y="76.2"/>
 </segment>
 <segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="147.32" y1="111.76" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="111.76" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<junction x="147.32" y="111.76"/>
-<wire x1="147.32" y1="124.46" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VSS"/>
-<wire x1="121.92" y1="119.38" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="116.84" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
-<junction x="121.92" y="116.84"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="106.68" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="104.14" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
-<junction x="167.64" y="111.76"/>
-</segment>
-<segment>
 <pinref part="BAT" gate="G$1" pin="-"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="106.68" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
@@ -9287,6 +9271,28 @@ Created by mzst on 17-Jan-2016</description>
 <pinref part="SERVO" gate="A" pin="1"/>
 <wire x1="-40.64" y1="63.5" x2="-30.48" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="111.76" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="147.32" y1="106.68" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="106.68" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<junction x="147.32" y="106.68"/>
+<wire x1="147.32" y1="124.46" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="109.22" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VSS"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="173.99" y1="119.38" x2="173.99" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
+<junction x="167.64" y="106.68"/>
 </segment>
 </net>
 <net name="MOTOR1A" class="0">
@@ -9368,7 +9374,11 @@ Created by mzst on 17-Jan-2016</description>
 <segment>
 <label x="83.82" y="124.46" size="1.778" layer="95"/>
 <pinref part="U$10" gate="MSK-12C02" pin="COM"/>
-<wire x1="81.28" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="121.92" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+<junction x="91.44" y="124.46"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -9396,15 +9406,15 @@ Created by mzst on 17-Jan-2016</description>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="132.08" x2="173.99" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="132.08" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="127" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
 <junction x="167.64" y="132.08"/>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="167.64" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="175.26" y1="132.08" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<junction x="175.26" y="132.08"/>
+<pinref part="U$5" gate="G$1" pin="VOUT"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="173.99" y1="132.08" x2="173.99" y2="127" width="0.1524" layer="91"/>
+<junction x="173.99" y="132.08"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
@@ -9463,19 +9473,17 @@ Created by mzst on 17-Jan-2016</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="134.62" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="132.08" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<junction x="121.92" y="132.08"/>
-<wire x1="121.92" y1="124.46" x2="121.92" y2="127" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="127" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
-<junction x="121.92" y="127"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="132.08" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<junction x="129.54" y="132.08"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <pinref part="U$10" gate="MSK-12C02" pin="L1"/>
-<wire x1="111.76" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="121.92" x2="111.76" y2="127" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="121.92" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="129.54" y1="129.54" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
@@ -9725,7 +9733,7 @@ Created by mzst on 17-Jan-2016</description>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="119.38" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="121.92" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -9747,6 +9755,8 @@ Created by mzst on 17-Jan-2016</description>
 <approved hash="208,1,195.58,40.64,VCC,sup,,,,"/>
 <approved hash="208,1,195.58,15.24,VCC,sup,,,,"/>
 <approved hash="208,1,-20.32,35.56,VCC,sup,,,,"/>
+<approved hash="208,1,-58.42,17.78,VCC,sup,,,,"/>
+<approved hash="113,1,-41.284,64.6388,SERVO,,,,,"/>
 </errors>
 </schematic>
 </drawing>
