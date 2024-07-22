@@ -36,6 +36,10 @@ module sideplate() {
  color("#840") rotate([90,90,0]) linear_extrude(height=SIDETHICKNESS,center=true) rotate([0,0,90]) import("bot_side_flat.svg");
 }
 
+module bumper() { 
+ color("#f40") linear_extrude(height=SIDETHICKNESS,center=true) rotate([0,0,90]) import("bot_bumper.svg");
+}
+
 module motorfrontplate() { 
  color("#F80") rotate([0,90,0]) linear_extrude(height=PCBTHICKNESS,center=true) rotate([0,0,90]) import("bot_motorfront_flat.svg");
 }
@@ -63,7 +67,7 @@ module castor() { // descends 14mm
  
 
 baseplate(); 
-translate([0,0,25]) topplate();
+//translate([0,0,25]) topplate();
 
 translate([29,0,0]) motorfrontplate();
 translate([-30.5,0,0]) motorbackplate();
@@ -75,9 +79,9 @@ translate([0,-(WIDTH+SIDETHICKNESS+1)/2,0]) sideplate();
 //translate([36,0,30]) rotate([90,0,90])phone();
 
 // phone angled
-translate([38.54,0,1.2]) rotate([0,-10,0]) phonebackplate();
-translate([46,0,1.5]) rotate([0,-25,0]) phonebackplate();
-translate([56,0,2]) rotate([0,-40,0]) phonebackplate();
+//translate([38.54,0,1.2]) rotate([0,-10,0]) phonebackplate();
+//translate([46,0,1.5]) rotate([0,-25,0]) phonebackplate();
+//translate([56,0,2]) rotate([0,-40,0]) phonebackplate();
 //translate([36,0,25]) rotate([60,0,90])phone();
 //translate([66,0,8]) cube([3,WIDTH+5,4],center=true);
  
@@ -86,5 +90,8 @@ translate([0,9.5-(WIDTH/2),12]) motor();
 translate([0,(WIDTH/2)-9.5,12]) rotate([180,0,0]) motor();
 //translate([-18,23+WIDTH/2,12]) wheel();
 //translate([-18,-23-WIDTH/2,12]) rotate([180,0,0]) wheel();
-translate([67,0,-0.8]) rotate([0,0,90])  castor();
+translate([70,0,-0.8]) rotate([0,0,90])  castor();
+
+translate([-33,5.5,2.5]) bumper();
+translate([-33,-5.5,2.5]) rotate([180,0,0]) bumper();
  
