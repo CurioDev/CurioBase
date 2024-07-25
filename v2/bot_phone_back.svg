@@ -23,17 +23,18 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.9839829"
-     inkscape:cx="-132.05759"
-     inkscape:cy="178.68097"
+     inkscape:zoom="1.8854073"
+     inkscape:cx="-174.7633"
+     inkscape:cy="236.55366"
      inkscape:window-width="2560"
-     inkscape:window-height="1409"
-     inkscape:window-x="2560"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-page="true"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="true"
+     inkscape:snap-object-midpoints="true" />
   <defs
      id="defs2" />
   <g
@@ -44,9 +45,9 @@
        style="fill:none;stroke:#000000;stroke-width:0.0999997"
        id="rect1416"
        width="12"
-       height="6"
+       height="7.280057"
        x="-6"
-       y="98"
+       y="98.21994"
        ry="0.49999896"
        rx="0.49999899" />
     <rect
@@ -108,5 +109,17 @@
        y="63"
        rx="2"
        ry="2" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.0499999;stroke-linecap:round;stroke-linejoin:round"
+       id="path851"
+       cx="33"
+       cy="88.5"
+       r="6.2850356" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:0.0499999;stroke-linecap:round;stroke-linejoin:round"
+       id="circle955"
+       cx="-33"
+       cy="88.5"
+       r="6.2850356" />
   </g>
 </svg>

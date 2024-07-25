@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9046,6 +9046,8 @@ Created by mzst on 17-Jan-2016</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="U$5" library="vreg" deviceset="AP7361C-33E-13" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="4.7uF"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9053,6 +9055,7 @@ Created by mzst on 17-Jan-2016</description>
 <text x="139.7" y="91.44" size="1.778" layer="94">LGS4084HB5</text>
 <text x="-22.86" y="81.28" size="1.778" layer="91">Boot mode</text>
 <text x="60.96" y="93.98" size="1.778" layer="91">Boot mode</text>
+<text x="78.74" y="-5.08" size="1.778" layer="91">stops motor run in bootloader</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="149.86" y="30.48"/>
@@ -9126,6 +9129,8 @@ Created by mzst on 17-Jan-2016</description>
 <instance part="GND14" gate="1" x="91.44" y="109.22"/>
 <instance part="U$5" gate="G$1" x="147.32" y="132.08"/>
 <instance part="C5" gate="G$1" x="173.99" y="121.92" rot="R180"/>
+<instance part="R14" gate="G$1" x="96.52" y="-7.62" rot="R180"/>
+<instance part="GND15" gate="1" x="106.68" y="-7.62" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9293,6 +9298,11 @@ Created by mzst on 17-Jan-2016</description>
 <wire x1="173.99" y1="119.38" x2="173.99" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="173.99" y1="106.68" x2="167.64" y2="106.68" width="0.1524" layer="91"/>
 <junction x="167.64" y="106.68"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="-7.62" x2="101.6" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR1A" class="0">
@@ -9695,8 +9705,13 @@ Created by mzst on 17-Jan-2016</description>
 <net name="MOTOR2A_LV" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="INA"/>
-<wire x1="86.36" y1="-12.7" x2="99.06" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
 <label x="88.9" y="-12.7" size="1.778" layer="95"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="-12.7" x2="99.06" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-7.62" x2="88.9" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-7.62" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="88.9" y="-12.7"/>
 </segment>
 <segment>
 <wire x1="-2.54" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>

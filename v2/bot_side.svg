@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.438729"
-     inkscape:cx="-24.19293"
-     inkscape:cy="359.61355"
+     inkscape:zoom="3.3070523"
+     inkscape:cx="22.981191"
+     inkscape:cy="333.22726"
      inkscape:window-width="2560"
      inkscape:window-height="1382"
      inkscape:window-x="0"
@@ -69,9 +69,9 @@
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.1"
        id="path227"
-       cx="-7.5307269"
+       cx="-5.9310002"
        cy="87.953522"
-       r="2" />
+       r="2.4310124" />
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.1"
        id="circle309"
@@ -88,13 +88,13 @@
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.1"
        id="path761"
-       cx="1.7"
+       cx="2.7"
        cy="79.10347"
        r="1.5" />
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:0.1"
        id="circle915"
-       cx="1.7"
+       cx="2.7"
        cy="96.803574"
        r="1.5" />
     <rect
@@ -110,7 +110,7 @@
        width="1.6"
        height="5"
        x="28.200001"
-       y="75" />
+       y="74" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.1"
        id="rect2576"
@@ -126,7 +126,7 @@
        sodipodi:nodetypes="ccccccccccccc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.0999987"
-       d="m -39,96.195 h 7 v 3 h -7 z"
+       d="m -39,96.095 h 7 v 3.1 h -7 z"
        id="path862" />
   </g>
 </svg>
